@@ -1,13 +1,13 @@
 #1. objetivo
 #2. Url base (host)
 #3. endpoint
-    # - localhost/livros (GET)
-    # - localhost/livros/id (GET)
-    # - localhost/livros    (POST)
-    # - localhost/livros/id (PUT)
-    # - localhost/livros/id (DELETE)
+    # - localhost/climas (GET)
+    # - localhost/climas/id (GET)
+    # - localhost/climas    (POST)
+    # - localhost/climas/id (PUT)
+    # - localhost/climas/id (DELETE)
 #4. quais recursos?
-    #livros
+    #climas
 
 from flask import Flask, jsonify, request
 
@@ -15,7 +15,7 @@ app = Flask(__name__)
 
 
 
-climatempo = [
+climas = [
     {
         'id' : 1,
         'Região' : 'Sudeste',
