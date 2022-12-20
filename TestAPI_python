@@ -18,12 +18,12 @@ app = Flask(__name__)
 climas = [
     {
         'id' : 1,
-        'Região' : 'Sudeste',
+        'Estado' : 'Rio De Janeiro',
         'Temperatura' : 25
     },
     {
         'id' : 2,
-        'Região' : 'Sul',
+        'Estado' : 'São Paulo',
         'Temperatura' : 18
     }
 ]
