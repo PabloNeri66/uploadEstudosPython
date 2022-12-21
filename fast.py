@@ -9,17 +9,17 @@ app = FastAPI()
     #{
     #    'id' : 1,
      #   'preço' : (2.54),
-      #  'produto' : 'Ruffles'
+      #  'produto' : "Ruffles"
     #},
     #{
     #    'id': 2,
     #    'preço' : 5,
-    #   'produto' : 'Veja'
+    #   'produto' : "Veja"
     #},
     #{
     #    'id' : 3,
     #    'preço' : 49,
-    #    'produto' : 'bola'
+    #    'produto' : "bola"
     #}
 #]
 vendas = {
